@@ -2,46 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a05ddfdf-ef0e-470c-a0e1-a439ad21b99d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/public/images/avengers.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/avengers_background.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/no_image.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/reactMovie_logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/tmdb_logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Common/DisplayGrid/DisplayGrid.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Common/DisplayGrid/DisplayGrid.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Common/Header/Header.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Common/Header/Header.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Common/HeroImage/HeroImage.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Common/HeroImage/HeroImage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Common/LoadMoreBtn/LoadMoreBtn.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Common/LoadMoreBtn/LoadMoreBtn.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Common/LoadSpinner/LoadSpinner.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Common/LoadSpinner/LoadSpinner.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Home/Home.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Home/Home.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Home/elements/MovieThumb/MovieThumb.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Home/elements/MovieThumb/MovieThumb.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Home/elements/SortMenu/SortMenu.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Home/elements/SortMenu/SortMenu.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Movie/Movie.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Movie/Movie.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Movie/elements/Actor/Actor.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Movie/elements/Actor/Actor.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Movie/elements/MovieInfo/MovieInfo.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Movie/elements/MovieInfo/MovieInfo.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Movie/elements/Navigation/Navigation.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Movie/elements/Navigation/Navigation.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/App/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/App/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/App/App.test.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/api/mdbAPI.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/mdbAPI.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/utils/currencyUtils.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/currencyUtils.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/utils/datetimeUtils.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/datetimeUtils.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/avengers.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/avengers_background.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/reactMovie_logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/moviegoers.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/tmdb_logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Common/Header/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Common/Header/Header.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Home/Home.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Home/Home.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -142,11 +109,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/components/Common/Header/Header.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="636">
-              <caret line="42" column="26" selection-start-line="42" selection-start-column="26" selection-end-line="42" selection-end-column="26" />
+            <state relative-caret-position="521">
+              <caret line="37" column="48" lean-forward="true" selection-start-line="37" selection-start-column="48" selection-end-line="37" selection-end-column="48" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
               </folding>
@@ -157,8 +124,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/Home/Home.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="348">
-              <caret line="38" column="20" selection-start-line="38" selection-start-column="20" selection-end-line="38" selection-end-column="20" />
+            <state relative-caret-position="1726">
+              <caret line="107" column="45" selection-start-line="107" selection-start-column="45" selection-end-line="107" selection-end-column="45" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
                 <element signature="e#189#209#0" expanded="true" />
@@ -167,11 +134,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/Home/elements/SortMenu/SortMenu.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="364">
-              <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+            <state relative-caret-position="598">
+              <caret line="26" column="60" lean-forward="true" selection-start-line="26" selection-start-column="60" selection-end-line="26" selection-end-column="60" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
               </folding>
@@ -247,11 +214,11 @@
         <option value="$PROJECT_DIR$/src/components/Movie/elements/Navigation/Navigation.js" />
         <option value="$PROJECT_DIR$/src/components/Movie/elements/Actor/Actor.css" />
         <option value="$PROJECT_DIR$/src/components/Common/DisplayGrid/DisplayGrid.js" />
-        <option value="$PROJECT_DIR$/src/components/Common/Header/Header.js" />
         <option value="$PROJECT_DIR$/src/components/Common/DisplayGrid/DisplayGrid.css" />
-        <option value="$PROJECT_DIR$/src/components/Home/Home.js" />
-        <option value="$PROJECT_DIR$/src/components/Home/elements/SortMenu/SortMenu.js" />
         <option value="$PROJECT_DIR$/src/components/Home/elements/SortMenu/SortMenu.css" />
+        <option value="$PROJECT_DIR$/src/components/Home/elements/SortMenu/SortMenu.js" />
+        <option value="$PROJECT_DIR$/src/components/Home/Home.js" />
+        <option value="$PROJECT_DIR$/src/components/Common/Header/Header.js" />
       </list>
     </option>
   </component>
@@ -476,12 +443,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1561040608038</updated>
-      <workItem from="1561040609389" duration="103585000" />
+      <workItem from="1561040609389" duration="104608000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="103585000" />
+    <option name="totallyTimeSpent" value="104608000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="11" y="-1054" width="1305" height="1027" extended-state="0" />
@@ -554,7 +521,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/images/reactMovie_logo.png">
+    <entry file="file://$PROJECT_DIR$/public/images/moviegoers.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/App/App.test.js">
@@ -833,10 +800,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Home/elements/SortMenu/SortMenu.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="621">
+          <caret line="27" column="1" lean-forward="true" selection-start-line="27" selection-start-column="1" selection-end-line="27" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Home/elements/SortMenu/SortMenu.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="598">
+          <caret line="26" column="60" lean-forward="true" selection-start-line="26" selection-start-column="60" selection-end-line="26" selection-end-column="60" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/Home/Home.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="348">
-          <caret line="38" column="20" selection-start-line="38" selection-start-column="20" selection-end-line="38" selection-end-column="20" />
+        <state relative-caret-position="1726">
+          <caret line="107" column="45" selection-start-line="107" selection-start-column="45" selection-end-line="107" selection-end-column="45" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
             <element signature="e#189#209#0" expanded="true" />
@@ -846,28 +830,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/Common/Header/Header.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="636">
-          <caret line="42" column="26" selection-start-line="42" selection-start-column="26" selection-end-line="42" selection-end-column="26" />
+        <state relative-caret-position="521">
+          <caret line="37" column="48" lean-forward="true" selection-start-line="37" selection-start-column="48" selection-end-line="37" selection-end-column="48" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Home/elements/SortMenu/SortMenu.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="364">
-          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Home/elements/SortMenu/SortMenu.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="621">
-          <caret line="27" column="1" lean-forward="true" selection-start-line="27" selection-start-column="1" selection-end-line="27" selection-end-column="1" />
         </state>
       </provider>
     </entry>

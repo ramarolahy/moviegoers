@@ -29,7 +29,7 @@ class Header extends Component {
             <div className="mg-header">
                 <div className="mg-header-content">
                     <Link to={ '/' }>
-                        <img className="mg-logo" src="./images/reactMovie_logo.png" alt="moviegoers.logo"/>
+                        <img className="mg-logo" src="./images/moviegoers.png" alt="moviegoers.logo"/>
                     </Link>
                     <div className={"mg-search__wrap"}>
                         <input
