@@ -1,6 +1,18 @@
+@media screen and (max-width: 600px) {
+    .mg-navigation__sort-menu--wrap {
+        left: 10px !important;
+    }
+
+    li {
+        padding: 7px 7px;
+        font-size: 1em !important;
+    }
+}
+
 .mg-navigation__sort-menu--wrap {
     position: absolute;
-    top: 80px;
+    bottom: 300px;
+    left: 40px;
 }
 
 .mg-navigation__sort-menu {

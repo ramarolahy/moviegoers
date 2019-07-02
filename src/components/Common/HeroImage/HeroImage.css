@@ -1,27 +1,37 @@
 @media screen and (max-width: 720px) {
+    .mg-heroimage {
+        width: 100%;
+        background-position: center, center;
+        background-repeat: no-repeat;
+        -webkit-background-size: cover !important;
+        background-size: cover !important;
+    }
     .mg-heroimage__text {
         max-width: 100%;
     }
 
     .mg-heroimage__text h1 {
-        font-size: 38px;
+        font-size: 2em !important;
         color: #fff;
     }
 
     .mg-heroimage__text p {
-        font-size: 16px;
-        line-height: 20px;
+        font-size: 1em !important;
+        line-height: 10px;
         color: #fff;
     }
 }
 
+
 .mg-heroimage {
-    background-size: 100%, cover !important;
-    background-position: center, center !important;
+    background-size: cover !important ;
+    background-position: center, center !important ;
+    background-repeat: no-repeat !important;
+    background-attachment: fixed;
     width: 100%;
     height: 100vh;
     position: relative;
-    animation: animateHeroimage 1s;
+    animation: animateHeroimage 300ms;
 }
 
 @keyframes animateHeroimage {

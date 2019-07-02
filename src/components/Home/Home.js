@@ -105,7 +105,7 @@ class Home extends Component {
                                    // copy current movies and add new results with spread
                                    movies: [...res.results],
                                    // set heroimage to first result check if exist first
-                                   heroImage: res.results[0],
+                                   heroImage: res.results[Math.floor(Math.random() * 16)],
                                    loading: false,
                                    currentPage: res.page,
                                    totalPages: res.total_pages

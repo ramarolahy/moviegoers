@@ -7,3 +7,9 @@
     margin: 0 auto;
     padding: 0 20px;
 }
+
+.mg-home__grid::after {
+    content: "";
+    clear: both;
+    display: table;
+}

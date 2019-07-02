@@ -31,16 +31,13 @@ class Header extends Component {
                     <Link to={ '/' }>
                         <img className="mg-logo" src="./images/moviegoers.png" alt="moviegoers.logo"/>
                     </Link>
-                    <div className={"mg-search__wrap"}>
-                        <input
-                            type="text"
-                            className="mg-header__input"
-                            placeholder="Search"
-                            onChange={ this.doSearch }
-                            value={ value }
-                        />
-                        {/*<FaSearch />*/}
-                    </div>
+                    <input
+                        type="text"
+                        className="mg-header__input"
+                        placeholder="Search"
+                        onChange={ this.doSearch }
+                        value={ value }
+                    />
                 </div>
             </div>
         );
