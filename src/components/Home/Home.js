@@ -139,6 +139,7 @@ class Home extends Component {
                             image={ `${ IMAGE_BASE_URL }${ BACKDROP_SIZE }${ heroImage.backdrop_path }` }
                             title={ heroImage.original_title }
                             overview={ heroImage.overview }
+                            rating={ heroImage.vote_average + ' / 10' }
                         />
                     </div> : null }
                 <div className={ 'mg-home__grid' }>

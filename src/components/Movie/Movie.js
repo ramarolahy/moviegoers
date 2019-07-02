@@ -13,6 +13,10 @@ class Movie extends Component {
         directors: [],
         loading: false
     };
+
+    /**
+     * Method to manage state and to call fetchInfo function
+     */
     componentDidMount() {
         // ES6 destructuring the props
         const { movieId } = this.props.match.params;
@@ -28,6 +32,10 @@ class Movie extends Component {
         }
     }
 
+    /**
+     * Method to fetch API response and set component state
+     * @param endpoint: API URL
+     */
     fetchInfo = ( endpoint ) => {
         // ES6 destructuring the props
         const { movieId } = this.props.match.params;

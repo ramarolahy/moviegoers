@@ -7,6 +7,17 @@ import { convertMoney } from '../../../../utils/currencyUtils';
 import './MovieInfo.css';
 import Actor from '../Actor/Actor';
 
+/**
+ * Component to display movie info on the movie page
+ * @param movie
+ * @param directors
+ * @param actors
+ * @param time
+ * @param budget
+ * @param revenue
+ * @returns {*}
+ * @constructor
+ */
 const MovieInfo = ( { movie, directors, actors, time, budget, revenue } ) => (
     <div className="mg-movieinfo"
          style={ {

@@ -1,6 +1,7 @@
 @media screen and (max-width: 600px) {
     .mg-navigation__sort-menu--wrap {
         left: 10px !important;
+        bottom: 275px !important;
     }
 
     li {

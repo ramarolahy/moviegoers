@@ -3,10 +3,20 @@ import PropTypes from 'prop-types';
 import LoadMoreBtn from '../LoadMoreBtn/LoadMoreBtn';
 import './DisplayGrid.css';
 
+/**
+ * Component to display movie list and actors list as a grid
+ * @param header
+ * @param loading
+ * @param children
+ * @param loadMore
+ * @param isMovies
+ * @returns {*}
+ * @constructor
+ */
 const DisplayGrid = ( { header, loading, children, loadMore, isMovies } ) => {
     const renderElements = () => {
         return children.map( ( el, i ) => (
-            <div key={ i } className="mg-grid__element">
+            <div key={ i } className={ isMovies ? "mg-grid__element--movies" : "mg-grid__element--actors"}>
                 { el }
             </div>
         ) );

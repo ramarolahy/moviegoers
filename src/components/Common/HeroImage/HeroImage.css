@@ -8,6 +8,7 @@
     }
     .mg-heroimage__text {
         max-width: 100%;
+        top: 10vh !important;
     }
 
     .mg-heroimage__text h1 {
@@ -53,7 +54,7 @@
     z-index: 100;
     max-width: 700px;
     position: absolute;
-    bottom: 40vh;
+    top: 20vh;
     margin-right: 20px;
     min-height: 100px;
     background: rgba(0, 0, 0, 0.0);
@@ -72,5 +73,9 @@
     font-size: 22px;
     line-height: 26px;
     color: #fff;
+}
+
+.mg-heroImage__rating {
+    font-size: 0.8em;
 }
 

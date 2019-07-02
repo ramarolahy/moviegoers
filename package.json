@@ -2,7 +2,7 @@
   "name": "moviegoers",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://ramarolahy.github.io/moviegoers",
+  "homepage": "https://ramarolahy.github.io/moviegoers/",
   "dependencies": {
     "@fortawesome/free-solid-svg-icons": "^5.9.0",
     "dotenv": "^8.0.0",
@@ -21,6 +21,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
   "eslintConfig": {

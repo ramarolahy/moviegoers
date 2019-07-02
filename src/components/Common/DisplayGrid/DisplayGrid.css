@@ -43,10 +43,24 @@
 }
 
 @media screen and (max-width: 600px) {
-    /* Add mobile styles here*/
-    .mg-grid__content--actors {
-        grid-template-columns: repeat(1, 1fr) !important;
+    .mg-grid__wrap--actors {
+        height: auto !important;
     }
+    .mg-grid__content--actors {
+        grid-template-columns: repeat(2, 1fr) !important;
+        grid-column-gap: 3px !important;
+        grid-row-gap: 10px;
+    }
+
+    .mg-grid__element--actors {
+        flex: 0 0 auto;
+        display: inline-block;
+        background: transparent;
+        animation: animateGrid 0.5s;
+        width: 130px !important;
+        margin: 3px !important;
+    }
+
 }
 
 .mg-header__movies {
@@ -106,11 +120,12 @@
     width: 10px;
 }
 
-.mg-grid__content--movies::-webkit-scrollbar {
+.mg-grid__content--movies::-webkit-scrollbar, .mg-grid__content--actors::-webkit-scrollbar {
+    display: none !important;
     width: 0 !important;
 }
 
-.mg-grid__element {
+.mg-grid__element--movies, .mg-grid__element--actors {
     flex: 0 0 auto;
     display: inline-block;
     background: transparent;

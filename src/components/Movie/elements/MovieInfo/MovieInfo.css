@@ -21,7 +21,20 @@
 }
 
 @media screen and (max-width: 600px) {
-
+    .mg-movieinfo {
+        padding: 60px 0 !important;
+        overflow-y: scroll;
+        position: fixed;
+    }
+    .mg-movieinfo__content {
+        width: 95vw !important;
+        margin: 0 7px !important;
+        height: auto !important;
+    }
+    .mg-movieinfo__text {
+        padding: 10px !important;
+        width: 100% !important;
+    }
 }
 
 

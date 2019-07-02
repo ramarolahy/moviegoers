@@ -2,7 +2,15 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import './HeroImage.css';
 
-const HeroImage = ( { image, title, overview } ) => {
+/**
+ * Component to display movie backdrop, movie title, and overview
+ * @param image
+ * @param title
+ * @param overview
+ * @returns {*}
+ * @constructor
+ */
+const HeroImage = ( { image, title, overview, rating } ) => {
     return (
         <div className={ 'mg-heroimage' }
              style={ {
@@ -14,8 +22,9 @@ const HeroImage = ( { image, title, overview } ) => {
             <div className={ 'mg-heroimage__content' }>
                 <div className={ 'mg-heroimage__text' }>
                     {/*Display movie title and overview*/ }
-                    <h1>{ title }</h1>
-                    <p>{ overview }</p>
+                    <h1 className={"mg-heroImage__title"}>{ title }</h1>
+                    <p className={"mg-heroImage__overview"}>{ overview }</p>
+                    <p className={"mg-heroImage__rating"}>IMDB rating: {rating}</p>
                 </div>
             </div>
         </div>
@@ -25,7 +34,8 @@ const HeroImage = ( { image, title, overview } ) => {
 HeroImage.propTypes = {
     image: PropTypes.string,
     title: PropTypes.string,
-    overview: PropTypes.string
+    overview: PropTypes.string,
+    rating: PropTypes.string
 };
 
 export default HeroImage;

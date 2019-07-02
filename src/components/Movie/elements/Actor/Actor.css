@@ -1,5 +1,17 @@
 @media screen and (max-width: 720px){
-
+  .mg-wrap__actor-info {
+    width: auto !important;
+    padding-left: 10px !important;
+  }
+  .mg-actor {
+    width: 180px !important;
+  }
+  .mg-actor-name {
+    font-size: 0.8em !important;
+  }
+  .mg-actor-character {
+    font-size: 0.5em !important;
+  }
 }
 
 .mg-actor {

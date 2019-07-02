@@ -18,5 +18,6 @@ The app should normally be tested across different platforms and also tested for
 Part of the UX Research would be to determine the UI that would deliver the most efficient, usable, and attractive interface.
 The UI should be responsive or adaptive.
 
+## App state management
 
-
+One consideration would be to use redux to manage state

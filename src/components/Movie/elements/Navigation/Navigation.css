@@ -1,3 +1,16 @@
+@media screen and (max-width: 600px) {
+  .mg-navigation__back {
+    padding: 4px 7px !important;
+    border-radius: 5px !important;
+  }
+  .mg-navigation-content p {
+    font-size: 1em !important;
+  }
+
+  .mg-navigation-content {
+    padding: 7px 0 7px !important;
+  }
+}
 
 .mg-navigation {
   width: 100%;
