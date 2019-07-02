@@ -9,6 +9,11 @@
 }
 
 @media screen and (max-width: 1000px) {
+    .mg-movieinfo {
+        padding: 60px 0 !important;
+        overflow-y: scroll;
+        position: fixed;
+    }
     .mg-movieinfo__thumb {
         display: none;
     }
