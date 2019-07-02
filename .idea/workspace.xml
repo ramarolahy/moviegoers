@@ -2,20 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a05ddfdf-ef0e-470c-a0e1-a439ad21b99d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Common/DisplayGrid/DisplayGrid.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Common/DisplayGrid/DisplayGrid.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Common/DisplayGrid/DisplayGrid.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Common/DisplayGrid/DisplayGrid.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Common/Header/Header.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Common/Header/Header.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Common/HeroImage/HeroImage.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Common/HeroImage/HeroImage.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Common/HeroImage/HeroImage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Common/HeroImage/HeroImage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Home/Home.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Home/Home.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Home/elements/SortMenu/SortMenu.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Home/elements/SortMenu/SortMenu.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Movie/Movie.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Movie/Movie.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Movie/elements/Actor/Actor.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Movie/elements/Actor/Actor.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Movie/elements/MovieInfo/MovieInfo.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Movie/elements/MovieInfo/MovieInfo.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Movie/elements/MovieInfo/MovieInfo.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Movie/elements/MovieInfo/MovieInfo.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Movie/elements/Navigation/Navigation.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Movie/elements/Navigation/Navigation.css" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -58,11 +45,11 @@
                 </provider>
               </entry>
             </file>
-            <file pinned="false" current-in-tab="false">
+            <file pinned="false" current-in-tab="true">
               <entry file="file://$PROJECT_DIR$/src/components/Movie/elements/MovieInfo/MovieInfo.css">
                 <provider selected="true" editor-type-id="text-editor">
-                  <state relative-caret-position="175">
-                    <caret line="12" column="22" lean-forward="true" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
+                  <state relative-caret-position="244">
+                    <caret line="15" column="5" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
                   </state>
                 </provider>
               </entry>
@@ -76,11 +63,11 @@
                 </provider>
               </entry>
             </file>
-            <file pinned="false" current-in-tab="true">
+            <file pinned="false" current-in-tab="false">
               <entry file="file://$PROJECT_DIR$/src/components/Common/Header/Header.css">
                 <provider selected="true" editor-type-id="text-editor">
-                  <state relative-caret-position="368">
-                    <caret line="16" column="31" lean-forward="true" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
+                  <state relative-caret-position="460">
+                    <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
                   </state>
                 </provider>
               </entry>
@@ -258,8 +245,8 @@
         <option value="$PROJECT_DIR$/src/components/Common/DisplayGrid/DisplayGrid.js" />
         <option value="$PROJECT_DIR$/src/components/Common/DisplayGrid/DisplayGrid.css" />
         <option value="$PROJECT_DIR$/src/components/Movie/elements/Actor/Actor.css" />
-        <option value="$PROJECT_DIR$/src/components/Movie/elements/MovieInfo/MovieInfo.css" />
         <option value="$PROJECT_DIR$/src/components/Common/Header/Header.css" />
+        <option value="$PROJECT_DIR$/src/components/Movie/elements/MovieInfo/MovieInfo.css" />
       </list>
     </option>
   </component>
@@ -446,25 +433,24 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1561040608038</updated>
-      <workItem from="1561040609389" duration="121768000" />
+      <workItem from="1561040609389" duration="122113000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="121768000" />
+    <option name="totallyTimeSpent" value="122113000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="18" y="-1046" width="1305" height="1027" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="npm" sideWeight="0.50149256" side_tool="true" weight="0.21778488" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49850747" visible="true" weight="0.17102137" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49850747" visible="true" weight="0.17102137" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" weight="0.30157068" />
+      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.30157068" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.36230367" />
@@ -810,13 +796,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Movie/elements/MovieInfo/MovieInfo.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="12" column="22" lean-forward="true" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/Common/DisplayGrid/DisplayGrid.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="552">
@@ -846,8 +825,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/Common/Header/Header.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="16" column="31" lean-forward="true" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
+        <state relative-caret-position="460">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Movie/elements/MovieInfo/MovieInfo.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="244">
+          <caret line="15" column="5" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
         </state>
       </provider>
     </entry>
