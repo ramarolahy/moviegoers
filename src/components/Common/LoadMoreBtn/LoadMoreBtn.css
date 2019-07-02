@@ -1,0 +1,25 @@
+.mg-loadmorebtn {
+    position: relative;
+    margin-bottom: -10px;
+    border-radius: 7px;
+    width: 80px;
+    padding: 0 5px;
+    height: 240px;
+    text-align: center;
+    content: '';
+    color: #fff;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.mg-loadmorebtn p {
+    font-family: 'Abel', sans-serif;
+    font-weight: bolder;
+    position: relative;
+    top: 20%;
+    font-size: 52px;
+}
+
+.mg-loadmorebtn:hover {
+    opacity: 0.8;
+}

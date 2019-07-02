@@ -1,0 +1,49 @@
+.mg-actor {
+  position: relative;
+  box-sizing: border-box;
+  background: rgba(9, 9, 9, 0.75);
+  padding: 5px;
+  -webkit-border-radius: 7px;
+  -moz-border-radius: 7px;
+  border-radius: 7px;
+  width: 200px;
+}
+
+.clearfix {
+  content: '';
+  clear: both;
+  display: table;
+}
+.mg-actor img {
+  width: 50px;
+  height: auto;
+  float: left;
+  box-sizing: border-box;
+}
+
+.mg-wrap__actor-info {
+  position: absolute;
+  padding-left: 20px;
+  left: 50px;
+  display: inline-block;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+  transform: translateY(-50%);
+
+}
+
+.mg-actor-name {
+  font-family: 'Abel', sans-serif;
+  font-size: 1em;
+  color:#fff;
+  display: block;
+}
+
+.mg-actor-character {
+  font-family: 'Abel', sans-serif;
+  font-size: 0.7em;
+  color:#fff;
+}

@@ -1,0 +1,94 @@
+@media screen and (max-width: 720px) {
+    .mg-grid__content {
+        grid-template-columns: auto auto;
+    }
+
+    .mg-grid__element:nth-child(2n+2) {
+        margin-right: 0;
+    }
+
+    .mg-grid h1 {
+        font-size: 22px;
+    }
+}
+
+.mg-header__movies {
+    text-align: left;
+    padding: 5px 15px;
+    margin-left: 40px;
+}
+.mg-grid__movies {
+    position: absolute;
+    bottom: 0em;
+    left: 0em;
+    padding: 0 20px;
+    z-index: 999;
+}
+
+.mg-grid__actors {
+    height: 100%;
+    border-bottom: 1px solid #8e8e8e;
+}
+
+
+.mg-grid__movies h1 {
+    font-family: 'Abel', sans-serif;
+    color: whitesmoke;
+    font-size: 1.2em;
+}
+.mg-grid__wrap--movies {
+    height: auto;
+    width: 96vw;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.mg-grid__wrap--actors {
+    width: 100%;
+    height: 300px;
+    margin: 0;
+    overflow-y: scroll;
+}
+
+.mg-grid__content--movies {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+}
+
+.mg-grid__content--actors {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+.mg-grid__content--movies::-webkit-scrollbar {
+    width: 0 !important;
+}
+
+/*.mg-grid__content--actors::-webkit-scrollbar-track {
+    background-color: transparent;
+}*/
+
+.mg-grid__element {
+    flex: 0 0 auto;
+    display: inline-block;
+    background: transparent;
+    animation: animateGrid 0.5s;
+    width: 160px;
+    margin: 10px;
+}
+
+@keyframes animateGrid {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+

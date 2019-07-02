@@ -1,0 +1,28 @@
+.mg-navigation__sort-menu--wrap {
+    position: absolute;
+    top: 80px;
+}
+
+.mg-navigation__sort-menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: transparent;
+}
+
+li {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 1.1em;
+}
+
+li.mg-navigation__sort-menu--item:hover, li.mg-navigation__sort-menu--item.active {
+    font-weight: bolder;
+    border-bottom: 3px solid white;
+}

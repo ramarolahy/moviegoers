@@ -1,0 +1,34 @@
+.mg-navigation {
+  width: 100%;
+  height: 50px;
+  background: transparent;
+  color: #fff;
+  position: absolute;
+  top: 0;
+  padding: 7px 20px;
+  box-sizing: border-box;
+  margin: 0;
+  z-index: 999;
+}
+
+.mg-navigation-content {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.mg-navigation-content p {
+  font-family: 'Abel', sans-serif;
+  font-size: 22px;
+  float: left;
+  color: #fff;
+  padding-right: 10px;
+  text-decoration: none;
+  margin: 0;
+}
+
+.mg-navigation__back {
+  background-color: rgba(29, 29, 29, 0.81);
+  padding: 7px 15px;
+  border-radius: 5px;
+}
