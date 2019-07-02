@@ -1,3 +1,18 @@
+@media screen and (max-width: 1200px) {
+    .mg-grid__content--actors {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr) !important; /* Movie poster is still showing */
+        grid-column-gap: 6px !important;
+        grid-row-gap: 6px !important;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .mg-grid__content--actors {
+        grid-template-columns: repeat(3, 1fr) !important;
+    }
+}
+
 @media screen and (max-width: 720px) {
     .mg-grid__content {
         grid-template-columns: auto auto;
@@ -20,6 +35,17 @@
 
     .mg-grid__movies {
         padding: 0;
+    }
+
+    .mg-grid__content--actors {
+        grid-template-columns: repeat(2, 1fr) !important;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    /* Add mobile styles here*/
+    .mg-grid__content--actors {
+        grid-template-columns: repeat(1, 1fr) !important;
     }
 }
 
