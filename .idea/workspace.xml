@@ -2,7 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a05ddfdf-ef0e-470c-a0e1-a439ad21b99d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/components/Movie/elements/MovieInfo/MovieInfo.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Movie/elements/MovieInfo/MovieInfo.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Common/Header/Header.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Common/Header/Header.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Common/Header/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Common/Header/Header.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Common/LoadMoreBtn/LoadMoreBtn.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Common/LoadMoreBtn/LoadMoreBtn.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Common/LoadSpinner/LoadSpinner.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Common/LoadSpinner/LoadSpinner.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Home/elements/MovieThumb/MovieThumb.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Home/elements/MovieThumb/MovieThumb.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Home/elements/SortMenu/SortMenu.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Home/elements/SortMenu/SortMenu.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Movie/Movie.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Movie/Movie.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Movie/elements/Actor/Actor.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Movie/elements/Actor/Actor.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -45,11 +52,11 @@
                 </provider>
               </entry>
             </file>
-            <file pinned="false" current-in-tab="true">
+            <file pinned="false" current-in-tab="false">
               <entry file="file://$PROJECT_DIR$/src/components/Movie/elements/MovieInfo/MovieInfo.css">
                 <provider selected="true" editor-type-id="text-editor">
-                  <state relative-caret-position="244">
-                    <caret line="15" column="5" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+                  <state relative-caret-position="313">
+                    <caret line="18" column="5" lean-forward="true" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
                   </state>
                 </provider>
               </entry>
@@ -63,11 +70,11 @@
                 </provider>
               </entry>
             </file>
-            <file pinned="false" current-in-tab="false">
+            <file pinned="false" current-in-tab="true">
               <entry file="file://$PROJECT_DIR$/src/components/Common/Header/Header.css">
                 <provider selected="true" editor-type-id="text-editor">
-                  <state relative-caret-position="460">
-                    <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+                  <state relative-caret-position="2010">
+                    <caret line="93" selection-start-line="93" selection-end-line="102" selection-end-column="1" />
                   </state>
                 </provider>
               </entry>
@@ -113,62 +120,12 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/Common/HeroImage/HeroImage.js">
+        <entry file="file://$PROJECT_DIR$/src/components/Home/elements/SortMenu/SortMenu.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="38">
-              <caret line="5" column="65" lean-forward="true" selection-start-line="5" selection-start-column="65" selection-end-line="5" selection-end-column="65" />
-              <folding>
-                <element signature="e#0#26#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/Home/Home.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="541">
-              <caret line="142" column="26" lean-forward="true" selection-start-line="142" selection-start-column="26" selection-end-line="142" selection-end-column="26" />
+            <state relative-caret-position="437">
+              <caret line="19" column="48" lean-forward="true" selection-start-line="19" selection-start-column="48" selection-end-line="19" selection-end-column="48" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
-                <element signature="e#189#209#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/Movie/elements/MovieInfo/MovieInfo.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="565">
-              <caret line="36" column="101" selection-start-line="36" selection-start-column="56" selection-end-line="36" selection-end-column="101" />
-              <folding>
-                <element signature="e#0#26#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/Movie/elements/Actor/Actor.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="230">
-              <caret line="10" column="12" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
-              <folding>
-                <element signature="e#0#26#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/Movie/Movie.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="17" column="60" selection-start-line="17" selection-start-column="60" selection-end-line="17" selection-end-column="60" />
-              <folding>
-                <element signature="e#0#41#0" expanded="true" />
-                <element signature="e#1149#2667#0" />
               </folding>
             </state>
           </provider>
@@ -177,8 +134,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/components/Common/Header/Header.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="25" column="14" lean-forward="true" selection-start-line="25" selection-start-column="14" selection-end-line="25" selection-end-column="14" />
+            <state relative-caret-position="336">
+              <caret line="48" column="32" selection-start-line="48" selection-start-column="32" selection-end-line="48" selection-end-column="32" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
               </folding>
@@ -210,7 +167,6 @@
         <option value="$PROJECT_DIR$/src/components/Common/isplayGrid/DisplayGrid.js" />
         <option value="$PROJECT_DIR$/src/components/Common/loadSpinner/LoadSpinner.js" />
         <option value="$PROJECT_DIR$/src/components/Common/LoadSpinner/LoadSpinner.css" />
-        <option value="$PROJECT_DIR$/src/components/Common/LoadSpinner/LoadSpinner.js" />
         <option value="$PROJECT_DIR$/src/api/mdbAPI.js" />
         <option value="$PROJECT_DIR$/src/utils/datetimeUtils.js" />
         <option value="$PROJECT_DIR$/src/utils/currencyUtils.js" />
@@ -223,19 +179,13 @@
         <option value="$PROJECT_DIR$/src/components/Common/SearchBar/SearchBar.css" />
         <option value="$PROJECT_DIR$/src/index.css" />
         <option value="$PROJECT_DIR$/src/components/Home/elements/MovieThumb/MovieThumb.css" />
-        <option value="$PROJECT_DIR$/src/components/Common/LoadMoreBtn/LoadMoreBtn.js" />
         <option value="$PROJECT_DIR$/src/components/App/App.js" />
-        <option value="$PROJECT_DIR$/src/components/Home/elements/MovieThumb/MovieThumb.js" />
-        <option value="$PROJECT_DIR$/src/components/Movie/elements/Actor/Actor.js" />
         <option value="$PROJECT_DIR$/src/components/Movie/Movie.css" />
         <option value="$PROJECT_DIR$/src/components/Movie/elements/Navigation/Navigation.js" />
-        <option value="$PROJECT_DIR$/src/components/Home/elements/SortMenu/SortMenu.js" />
-        <option value="$PROJECT_DIR$/src/components/Common/Header/Header.js" />
         <option value="$PROJECT_DIR$/src/components/Home/Home.css" />
         <option value="$PROJECT_DIR$/src/components/Common/LoadMoreBtn/LoadMoreBtn.css" />
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/src/components/Movie/Movie.js" />
         <option value="$PROJECT_DIR$/src/components/Movie/elements/MovieInfo/MovieInfo.js" />
         <option value="$PROJECT_DIR$/src/components/Home/elements/SortMenu/SortMenu.css" />
         <option value="$PROJECT_DIR$/src/components/Movie/elements/Navigation/Navigation.css" />
@@ -245,8 +195,15 @@
         <option value="$PROJECT_DIR$/src/components/Common/DisplayGrid/DisplayGrid.js" />
         <option value="$PROJECT_DIR$/src/components/Common/DisplayGrid/DisplayGrid.css" />
         <option value="$PROJECT_DIR$/src/components/Movie/elements/Actor/Actor.css" />
-        <option value="$PROJECT_DIR$/src/components/Common/Header/Header.css" />
         <option value="$PROJECT_DIR$/src/components/Movie/elements/MovieInfo/MovieInfo.css" />
+        <option value="$PROJECT_DIR$/src/components/Movie/elements/Actor/Actor.js" />
+        <option value="$PROJECT_DIR$/src/components/Movie/Movie.js" />
+        <option value="$PROJECT_DIR$/src/components/Common/LoadMoreBtn/LoadMoreBtn.js" />
+        <option value="$PROJECT_DIR$/src/components/Common/LoadSpinner/LoadSpinner.js" />
+        <option value="$PROJECT_DIR$/src/components/Home/elements/MovieThumb/MovieThumb.js" />
+        <option value="$PROJECT_DIR$/src/components/Home/elements/SortMenu/SortMenu.js" />
+        <option value="$PROJECT_DIR$/src/components/Common/Header/Header.js" />
+        <option value="$PROJECT_DIR$/src/components/Common/Header/Header.css" />
       </list>
     </option>
   </component>
@@ -296,13 +253,6 @@
               <item name="components" type="462c0819:PsiDirectoryNode" />
               <item name="Common" type="462c0819:PsiDirectoryNode" />
               <item name="Header" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="moviegoers" type="b2602c69:ProjectViewProjectNode" />
-              <item name="moviegoers" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="Home" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="moviegoers" type="b2602c69:ProjectViewProjectNode" />
@@ -433,24 +383,25 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1561040608038</updated>
-      <workItem from="1561040609389" duration="122113000" />
+      <workItem from="1561040609389" duration="123303000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="122113000" />
+    <option name="totallyTimeSpent" value="123303000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="18" y="-1046" width="1305" height="1027" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="npm" sideWeight="0.50149256" side_tool="true" weight="0.21778488" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49850747" visible="true" weight="0.17102137" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49850747" visible="true" weight="0.17102137" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.30157068" />
+      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.30157068" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.36230367" />
@@ -520,16 +471,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Common/LoadSpinner/LoadSpinner.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="10" column="27" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/utils/datetimeUtils.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="115">
@@ -591,16 +532,6 @@
     <entry file="file://$PROJECT_DIR$/src/components/Common/Header/Header.css">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Common/LoadMoreBtn/LoadMoreBtn.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/index.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="138">
@@ -619,16 +550,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="138">
           <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Home/elements/MovieThumb/MovieThumb.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="13" column="9" selection-start-line="13" selection-start-column="9" selection-end-line="13" selection-end-column="9" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
@@ -666,16 +587,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Home/elements/SortMenu/SortMenu.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="598">
-          <caret line="26" column="60" selection-start-line="26" selection-start-column="60" selection-end-line="26" selection-end-column="60" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/build/index.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -693,27 +604,6 @@
             <caret line="23" selection-start-line="23" selection-end-line="23" />
           </first_editor>
           <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Movie/Movie.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="17" column="60" selection-start-line="17" selection-start-column="60" selection-end-line="17" selection-end-column="60" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-            <element signature="e#1149#2667#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/App/App.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="460">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -741,12 +631,62 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Common/HeroImage/HeroImage.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="10" column="28" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Movie/elements/Actor/Actor.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="506">
+          <caret line="22" column="26" lean-forward="true" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Common/DisplayGrid/DisplayGrid.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="552">
+          <caret line="56" column="30" lean-forward="true" selection-start-line="56" selection-start-column="30" selection-end-line="56" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Movie/elements/MovieInfo/MovieInfo.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="313">
+          <caret line="18" column="5" lean-forward="true" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/Movie/elements/MovieInfo/MovieInfo.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="565">
+        <state relative-caret-position="828">
           <caret line="36" column="101" selection-start-line="36" selection-start-column="56" selection-end-line="36" selection-end-column="101" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Movie/elements/Actor/Actor.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="6" column="28" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Movie/Movie.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-45">
+          <caret line="10" column="44" selection-start-line="10" selection-start-column="44" selection-end-line="10" selection-end-column="44" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+            <element signature="n#!!block;n#componentDidMount#0;n#Movie#0" />
+            <element signature="e#1149#2667#0" />
           </folding>
         </state>
       </provider>
@@ -759,13 +699,6 @@
             <element signature="e#0#41#0" expanded="true" />
             <element signature="e#189#209#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Common/HeroImage/HeroImage.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="10" column="28" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
         </state>
       </provider>
     </entry>
@@ -789,34 +722,60 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Movie/elements/Actor/Actor.css">
+    <entry file="file://$PROJECT_DIR$/src/components/Common/LoadMoreBtn/LoadMoreBtn.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="506">
-          <caret line="22" column="26" lean-forward="true" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Common/DisplayGrid/DisplayGrid.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="552">
-          <caret line="56" column="30" lean-forward="true" selection-start-line="56" selection-start-column="30" selection-end-line="56" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Movie/elements/Actor/Actor.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="10" column="12" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
+        <state relative-caret-position="92">
+          <caret line="4" column="53" selection-start-line="4" selection-start-column="53" selection-end-line="4" selection-end-column="53" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Common/LoadSpinner/LoadSpinner.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="4" column="37" selection-start-line="4" selection-start-column="37" selection-end-line="4" selection-end-column="37" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Home/elements/MovieThumb/MovieThumb.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="6" column="49" selection-start-line="6" selection-start-column="49" selection-end-line="6" selection-end-column="49" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/App/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="460">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Home/elements/SortMenu/SortMenu.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="19" column="48" lean-forward="true" selection-start-line="19" selection-start-column="48" selection-end-line="19" selection-end-column="48" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/Common/Header/Header.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="25" column="14" lean-forward="true" selection-start-line="25" selection-start-column="14" selection-end-line="25" selection-end-column="14" />
+        <state relative-caret-position="336">
+          <caret line="48" column="32" selection-start-line="48" selection-start-column="32" selection-end-line="48" selection-end-column="32" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
           </folding>
@@ -825,15 +784,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/Common/Header/Header.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="460">
-          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Movie/elements/MovieInfo/MovieInfo.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="244">
-          <caret line="15" column="5" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+        <state relative-caret-position="2010">
+          <caret line="93" selection-start-line="93" selection-end-line="102" selection-end-column="1" />
         </state>
       </provider>
     </entry>

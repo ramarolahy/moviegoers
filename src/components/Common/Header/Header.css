@@ -1,3 +1,22 @@
+
+@media screen and (max-width: 720px) {
+    .mg-header-content {
+        width: 100%;
+    }
+    .mg-header__input {
+        font-size: 1em;
+        color: #fff;
+        margin-right: 20px;
+    }
+    .mg-logo {
+        display: inline-block;
+        margin: 5px 15px 20px;
+        width: 160px;
+    }
+
+}
+
+
 @media screen and (max-width: 600px) {
     .mg-header {
         height: 60px !important;
@@ -10,21 +29,25 @@
     .mg-logo {
         display: inline-block !important;
         margin: 5px 15px 5px !important;
-        width: 100px !important;
+        width: 120px !important;
     }
 
     .mg-header__input {
-        width: 7rem !important;
+        width: 10rem !important;
         height: 30px !important;
         font-size: 1em !important;
     }
-
-}
-
-@media screen and (max-width: 600px) {
-    .mg-logo {
-        width: 60px;
+    .mg-header__icon--search {
+        position: absolute;
+        top: 50%;
+        -webkit-transform: translateY(-50%) !important;
+        -moz-transform: translateY(-50%) !important;
+        -ms-transform: translateY(-50%) !important;
+        -o-transform: translateY(-50%) !important;
+        transform: translateY(-50%) !important;
+        right: 30px;
     }
+
 }
 
 .mg-header {
@@ -72,21 +95,22 @@
     margin: auto 20px;
 }
 
-@media screen and (max-width: 720px) {
-    .mg-header-content {
-        width: 100%;
-    }
-    .mg-header__input {
-        font-size: 1em;
-        color: #fff;
-        margin-right: 20px;
-    }
-    .mg-logo {
-        display: inline-block;
-        margin: 5px 15px 20px;
-        width: 160px;
-    }
+.mg-header__wrap--input {
+    width: auto;
+    display: inline-block;
+    float: right;
+    height: 30px;
+}
 
+.mg-header__icon--search {
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translateY(-100%);
+    -moz-transform: translateY(-100%);
+    -ms-transform: translateY(-100%);
+    -o-transform: translateY(-100%);
+    transform: translateY(-100%);
+    right: 30px;
 }
 
 

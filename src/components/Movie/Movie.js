@@ -6,6 +6,10 @@ import LoadSpinner from '../Common/LoadSpinner/LoadSpinner';
 /*Styles*/
 import './Movie.css';
 
+/**
+ * Movie page component
+ * Methods: componentDidMount - fetchInfo -
+ */
 class Movie extends Component {
     state = {
         movie: null,

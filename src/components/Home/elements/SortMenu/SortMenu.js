@@ -2,6 +2,10 @@ import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import './SortMenu.css';
 
+/**
+ * SortMenu component to sort movies list by Most Popular - Top Rated - Now Playing
+ * Methods: sortBy
+ */
 class SortMenu extends Component {
     state = {
         sortTerm: '',
@@ -14,16 +18,19 @@ class SortMenu extends Component {
         if( e.target.value === 1 ) {
             this.setState( { sortTerm: 'popular' }, () => {
                 callback( this.state.sortTerm );
+                // Set active tab
                 this.setState( { activeTab: 'popular' } );
             } );
         } else if( e.target.value === 2 ) {
             this.setState( { sortTerm: 'now_playing' }, () => {
                 callback( this.state.sortTerm );
+                // Set active tab
                 this.setState( { activeTab: 'now_playing' } );
             } );
         } else {
             this.setState( { sortTerm: 'top_rated' }, () => {
                 callback( this.state.sortTerm );
+                // Set active tab
                 this.setState( { activeTab: 'top_rated' } );
             } );
         }

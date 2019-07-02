@@ -3,6 +3,15 @@ import PropTypes from 'prop-types';
 import { Link } from 'react-router-dom';
 import './MovieThumb.css';
 
+/**
+ * Movie Thumbnail component to show movie poster
+ * @param image
+ * @param movieId
+ * @param movieName
+ * @param clickable
+ * @returns {*}
+ * @constructor
+ */
 const MovieThumb = ( { image, movieId, movieName, clickable } ) => (
     <div className="mg-moviethumb">
         { clickable ?

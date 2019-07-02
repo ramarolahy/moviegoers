@@ -1,8 +1,14 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
+import { FaSearch } from 'react-icons/fa';
+import { IconContext } from 'react-icons';
 import './Header.css';
 import { Link } from 'react-router-dom';
 
+/**
+ * Home header component
+ * Methods: doSearch
+ */
 class Header extends Component {
     state = {
         value: ''
@@ -31,13 +37,21 @@ class Header extends Component {
                     <Link to={ '/' }>
                         <img className="mg-logo" src="./images/moviegoers.png" alt="moviegoers.logo"/>
                     </Link>
-                    <input
-                        type="text"
-                        className="mg-header__input"
-                        placeholder="Search"
-                        onChange={ this.doSearch }
-                        value={ value }
-                    />
+                    <div className={"mg-header__wrap--input"}>
+                        <input
+                            type="text"
+                            className="mg-header__input"
+                            placeholder="Search"
+                            onChange={ this.doSearch }
+                            value={ value }
+                        />
+                        <IconContext.Provider value={ { className: 'mg-header__icon--search' } }>
+                            <div>
+                                <FaSearch/>
+                            </div>
+                        </IconContext.Provider>
+                    </div>
+
                 </div>
             </div>
         );

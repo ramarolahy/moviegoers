@@ -3,7 +3,12 @@ import { IMAGE_BASE_URL } from '../../../../api/mdbAPI';
 import PropTypes from 'prop-types';
 import './Actor.css';
 
-
+/**
+ * Actor card info component
+ * @param actor
+ * @returns {*}
+ * @constructor
+ */
 const Actor = ( { actor } ) => {
 
     const POSTER_SIZE = 'w154';
