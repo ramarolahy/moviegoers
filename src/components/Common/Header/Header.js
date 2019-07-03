@@ -15,7 +15,13 @@ class Header extends Component {
     };
 // Must have this here so we can reset it
     timeout = null;
-
+    /**
+     * Method to perform movie search functionality
+     * Takes a callback as props and uses input value as parameter.
+     * Search method activates automatically when user "stops" typing (No need to press enter)
+     * a timeout is set to wait 700ms to avoid unnecessary API calls.
+     * @param event
+     */
     doSearch = ( event ) => {
         // Get callback function from props <= Props
         const { callback } = this.props;

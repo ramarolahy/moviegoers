@@ -10,9 +10,7 @@ import './Actor.css';
  * @constructor
  */
 const Actor = ( { actor } ) => {
-
     const POSTER_SIZE = 'w154';
-
     return (
         <div className="mg-actor clearfix">
             <img
@@ -27,7 +25,6 @@ const Actor = ( { actor } ) => {
     );
 };
 
-// Set prop types for Actor
 Actor.propTypes = {
     actor: PropTypes.object
 };

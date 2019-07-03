@@ -55,7 +55,7 @@ class Home extends Component {
      * set state of component from response
      * */
     fetchMovies = ( endpoint ) => {
-        const { movies, heroImage, searchTerm } = this.state;
+        const { movies} = this.state;
         fetch( endpoint )
             .then( res => res.json() )
             .then( res => {
@@ -88,7 +88,10 @@ class Home extends Component {
         }
         this.fetchMovies( endpoint );
     };
-
+    /**
+     * Method to fetch movies by the sort menu
+     * @param sortTerm
+     */
     sortMovies = ( sortTerm ) => {
         this.setState( {
                            movies: [],
@@ -96,8 +99,8 @@ class Home extends Component {
                            sortTerm
                        } );
         console.log(sortTerm);
+        // See https://developers.themoviedb.org/3/movies for GET request terms : popular - top_rated - now_playing ...
         const endpoint = `${ API_URL }movie/${ sortTerm }?api_key=${ API_KEY }&language=en-US&page=1`;
-        const { heroImage } = this.state;
         fetch( endpoint )
             .then( res => res.json() )
             .then( res => {
@@ -105,19 +108,21 @@ class Home extends Component {
                                    // copy current movies and add new results with spread
                                    movies: [...res.results],
                                    // set heroimage to first result check if exist first
-                                   heroImage: res.results[Math.floor(Math.random() * 16)],
+                                   heroImage: res.results[Math.floor(Math.random() * (res.results.length - 1))],
                                    loading: false,
                                    currentPage: res.page,
                                    totalPages: res.total_pages
                                } );
             } );
     };
-
+    /**
+     * Method to load more movies (load next page)
+     */
     loadMoreMovies = () => {
         const { searchTerm, currentPage } = this.state;
         let endpoint = '';
         this.setState( { loading: false } );
-        // Load more popular movies IF no searchterm
+        // Load more popular movies IF no search term
         if( searchTerm === '' ) {
             endpoint = `${ API_URL }movie/popular?api_key=${ API_KEY }&language=en-US&page=${ currentPage + 1 }`;
             // Else load more search results
@@ -126,8 +131,8 @@ class Home extends Component {
         }
         this.fetchMovies( endpoint );
     };
-    /** This function will help limit overview character lengths
-     *
+    /**
+     * Method to limit overview character lengths. Some are too long for mobile view
      * @param overview : String - movie overview
      * @param limit : Number -  Char limit count
      * @returns string old title if < limit ELSE newTitle
@@ -143,12 +148,11 @@ class Home extends Component {
             }, 0);
             return `${newTitle.join (' ')} ...`;
         }
-        // return the result
         return overview;
     };
 
     render() {
-        const { movies, heroImage, loading, searchTerm } = this.state;
+        const { movies, heroImage, loading } = this.state;
         return (
             <div className={ 'mg-home' }>
                 <Header callback={ this.searchMovies }/>
@@ -159,7 +163,7 @@ class Home extends Component {
                             image={ `${ IMAGE_BASE_URL }${ BACKDROP_SIZE }${ heroImage.backdrop_path }` }
                             title={ heroImage.original_title }
                             overview={this.limitOverviewChar(heroImage.overview) }
-                            rating={ heroImage.vote_average + ' / 10' }
+                            rating={ heroImage.vote_average}
                         />
                     </div> : null }
                 <div className={ 'mg-home__grid' }>

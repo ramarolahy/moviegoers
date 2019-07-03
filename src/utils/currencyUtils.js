@@ -1,4 +1,8 @@
-// Convert a number to money formatting
+/**
+ * Method to convert currency to USD format
+ * @param money
+ * @returns {string}
+ */
 export const convertMoney = ( money ) => {
     const formatter = new Intl.NumberFormat( 'en-US', {
         style: 'currency',

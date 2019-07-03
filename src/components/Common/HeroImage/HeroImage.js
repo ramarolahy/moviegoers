@@ -21,10 +21,9 @@ const HeroImage = ( { image, title, overview, rating } ) => {
              } }>
             <div className={ 'mg-heroimage__content' }>
                 <div className={ 'mg-heroimage__text' }>
-                    {/*Display movie title and overview*/ }
                     <h1 className={"mg-heroImage__title"}>{ title }</h1>
                     <p className={"mg-heroImage__overview"}>{ overview }</p>
-                    <p className={"mg-heroImage__rating"}>IMDB rating: {rating}</p>
+                    <p className={"mg-heroImage__rating"}>IMDB rating: {rating} / 10</p>
                 </div>
             </div>
         </div>

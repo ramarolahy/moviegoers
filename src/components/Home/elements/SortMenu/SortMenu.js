@@ -11,26 +11,26 @@ class SortMenu extends Component {
         sortTerm: '',
         activeTab: 'popular'
     };
-
+    /**
+     * Method to set sortTerm sate and activeTab state
+     * @param e
+     */
     sortBy = ( e ) => {
         // Get callback function from props <= Props
         const { callback } = this.props;
         if( e.target.value === 1 ) {
             this.setState( { sortTerm: 'popular' }, () => {
                 callback( this.state.sortTerm );
-                // Set active tab
                 this.setState( { activeTab: 'popular' } );
             } );
         } else if( e.target.value === 2 ) {
             this.setState( { sortTerm: 'now_playing' }, () => {
                 callback( this.state.sortTerm );
-                // Set active tab
                 this.setState( { activeTab: 'now_playing' } );
             } );
         } else {
             this.setState( { sortTerm: 'top_rated' }, () => {
                 callback( this.state.sortTerm );
-                // Set active tab
                 this.setState( { activeTab: 'top_rated' } );
             } );
         }
