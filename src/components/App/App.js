@@ -9,8 +9,8 @@ function App() {
         <HashRouter>
             <React.Fragment>
                 <Switch>
-                    <Route path="/" component={ Home }/>
-                    <Route path="/:movieId" component={ Movie }/>
+                    <Route path="/" component={ Home } exact/>
+                    <Route path="/:movieId" component={ Movie } exact/>
                 </Switch>
             </React.Fragment>
         </HashRouter>

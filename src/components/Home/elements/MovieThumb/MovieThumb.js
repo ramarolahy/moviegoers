@@ -15,7 +15,7 @@ import './MovieThumb.css';
 const MovieThumb = ( { image, movieId, movieName, clickable } ) => (
     <div className="mg-moviethumb">
         { clickable ?
-            <Link to={ { pathname: `/${ movieId }`, movieName: `${ movieName }` } }>
+            <Link to={`/${ movieId }`}>
                 <img className="clickable" src={ image } alt="moviethumb"/>
             </Link>
             :
