@@ -11,8 +11,8 @@
 }
 
 .mg-navigation__sort-menu--wrap {
-    position: absolute;
-    bottom: 300px;
+    position: fixed;
+    bottom: 275px;
     left: 40px;
 }
 

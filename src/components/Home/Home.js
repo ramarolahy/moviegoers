@@ -144,9 +144,7 @@ class Home extends Component {
                     </div> : null }
                 <div className={ 'mg-home__grid' }>
                     <SortMenu callback={ this.sortMovies }/>
-                    <DisplayGrid header={ searchTerm ? 'Search Result' : '' }
-                                 loading={ loading } loadMore={ this.loadMoreMovies } isMovies={ true }>
-
+                    <DisplayGrid header={ '' } loading={ loading } loadMore={ this.loadMoreMovies } isMovies={ true }>
                         { movies.map( ( el, i ) => (
                             <MovieThumb
                                 key={ i }

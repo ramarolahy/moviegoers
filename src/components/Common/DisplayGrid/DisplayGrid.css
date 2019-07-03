@@ -77,7 +77,7 @@
 }
 
 .mg-grid__movies {
-    position: absolute;
+    position: fixed;
     bottom: 0em;
     left: 0em;
     padding: 0;

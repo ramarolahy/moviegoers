@@ -24,7 +24,7 @@ const DisplayGrid = ( { header, loading, children, loadMore, isMovies } ) => {
 
     return (
         <div className={isMovies ? "mg-grid__movies" : "mg-grid__actors"}>
-            { isMovies && header && !loading ? <h1 className={"mg-header__movies"}>{ header }</h1> : <h3>{ header.toUpperCase() }</h3> }
+            { isMovies && header && !loading ? null : <h3>{ header.toUpperCase() }</h3> }
             <div className={isMovies ? "mg-grid__wrap--movies" : "mg-grid__wrap--actors"}>
                 <div className={isMovies ? "mg-grid__content--movies" : "mg-grid__content--actors"}>
                     { renderElements() }
@@ -36,7 +36,6 @@ const DisplayGrid = ( { header, loading, children, loadMore, isMovies } ) => {
 };
 
 DisplayGrid.propTypes = {
-    header: PropTypes.string,
     loading: PropTypes.bool,
     children: PropTypes.object,
     isMovies: PropTypes.bool,

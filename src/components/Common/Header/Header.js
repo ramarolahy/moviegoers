@@ -51,7 +51,6 @@ class Header extends Component {
                             </div>
                         </IconContext.Provider>
                     </div>
-
                 </div>
             </div>
         );
