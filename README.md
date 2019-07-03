@@ -12,6 +12,7 @@ https://www.interaction-design.org/literature/article/what-is-design-thinking-an
 ## App optimization
 
 The app should normally be tested across different platforms and also tested for optimization.
+With the amount of images this app uses, performance takes a major hit so this should be considered when optimizing.
 
 ## User interface
 
