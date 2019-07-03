@@ -126,7 +126,26 @@ class Home extends Component {
         }
         this.fetchMovies( endpoint );
     };
-
+    /** This function will help limit overview character lengths
+     *
+     * @param overview : String - movie overview
+     * @param limit : Number -  Char limit count
+     * @returns string old title if < limit ELSE newTitle
+     */
+    limitOverviewChar = (overview, limit = 300) => {
+        const newTitle = [];
+        if (overview.length > limit) {
+            overview.split (' ').reduce ((acc, cur) => {
+                if (acc + cur.length <= limit) {
+                    newTitle.push (cur);
+                }
+                return acc + cur.length;
+            }, 0);
+            return `${newTitle.join (' ')} ...`;
+        }
+        // return the result
+        return overview;
+    };
     render() {
         const { movies, heroImage, loading, searchTerm } = this.state;
         return (
@@ -138,7 +157,7 @@ class Home extends Component {
                         <HeroImage
                             image={ `${ IMAGE_BASE_URL }${ BACKDROP_SIZE }${ heroImage.backdrop_path }` }
                             title={ heroImage.original_title }
-                            overview={ heroImage.overview }
+                            overview={this.limitOverviewChar(heroImage.overview) }
                             rating={ heroImage.vote_average + ' / 10' }
                         />
                     </div> : null }
