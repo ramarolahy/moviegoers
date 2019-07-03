@@ -1,19 +1,19 @@
 import React from 'react';
-import { BrowserRouter, Route, Switch } from 'react-router-dom';
+import { HashRouter, Route, Switch } from 'react-router-dom';
 import Home from '../Home/Home';
 import Movie from '../Movie/Movie'
 import './App.css';
 
 function App() {
     return (
-        <BrowserRouter>
+        <HashRouter>
             <React.Fragment>
                 <Switch>
-                    <Route path="/" component={ Home } exact/>
-                    <Route path="/:movieId" component={ Movie } exact/>
+                    <Route path="/" component={ Home }/>
+                    <Route path="/:movieId" component={ Movie }/>
                 </Switch>
             </React.Fragment>
-        </BrowserRouter>
+        </HashRouter>
     );
 }
 
