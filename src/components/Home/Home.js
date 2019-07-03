@@ -62,8 +62,8 @@ class Home extends Component {
                 this.setState( {
                                    // copy current movies and add new results with spread
                                    movies: [...movies, ...res.results],
-                                   // set heroimage to first result check if exist first
-                                   heroImage: res.results[Math.floor(Math.random() * 16)],
+                                   // Set hero image to a randomly selected movie from the response
+                                   heroImage: res.results[Math.floor(Math.random() * (res.results.length - 1))],
                                    loading: false,
                                    currentPage: res.page,
                                    totalPages: res.total_pages
@@ -146,6 +146,7 @@ class Home extends Component {
         // return the result
         return overview;
     };
+
     render() {
         const { movies, heroImage, loading, searchTerm } = this.state;
         return (
